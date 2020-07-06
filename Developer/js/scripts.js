@@ -7,13 +7,6 @@
 //     let age = parseInt(prompt("كم عمرك؟"));
 //     let experience=parseInt(prompt("كم عدد سنوات الخبرة لديك؟"));
 
-
-
-
-
-
-
-
 //     console.log("1- "+ launguges[0])
 //     console.log("2- "+ launguges[1])
 //     console.log("3- "+ launguges[2])
@@ -29,13 +22,11 @@
 //         console.log("sorry "+name+" you didnt get accepted")
 //     }
 
-
-
 // }
 
-
-
 // task();
+
+
 
 
 
@@ -77,86 +68,84 @@
 
 // celss();
 
-
-
-let ferinhite=[100,90,150,50,40,75]
-console.log(ferinhite);
-function big(){
-    const min1= 60
-    let big=[]
-    let temprrar=[]
-    for(temprr of ferinhite){
-        if(temprr > min1){
-            big.push(temprr);
-        }
-        }
-    console.log(big);
-    for(Num of big){
-        temprrar.push((Num-32)*(5/9))
-    }
-    console.log(temprrar);
+// let ferinhite=[100,90,150,50,40,75]
+// console.log(ferinhite);
+// function big(){
+//     const min1= 60
+//     let big=[]
+//     let temprrar=[]
+//     for(temprr of ferinhite){
+//         if(temprr > min1){
+//             big.push(temprr);
+//         }
+//         }
+//     console.log(big);
+//     for(Num of big){
+//         temprrar.push((Num-32)*(5/9))
+//     }
+//     console.log(temprrar);
     
  
 
-}
-
-big();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function grade() {
-//     let quizes = document.getElementById("quiz").value;
-//     let mid = document.getElementById("mid").value;
-//     let final = document.getElementById("final").value;
-//     let oral = document.getElementById("oral").value;
-
-//     let hun = quizes * 1
-//     let hun1 = mid * 1
-//     let hun3 = final * 1
-//     let hun4 = oral * 1
-
-
-//     let grades = hun + hun1 + hun3 + hun4
-
-
-
-//     if (grades > 89 && grades < 101) {
-//         document.getElementById("head2").innerHTML = "A"
-//     }
-//     if (grades > 79 && grades < 90) {
-//         document.getElementById("head2").innerHTML = "B"
-//     }
-//     if (grades > 69 && grades < 80) {
-//         document.getElementById("head2").innerHTML = "C"
-//     }
-//     if (grades > 59 && grades < 70) {
-//         document.getElementById("head2").innerHTML = "D"
-//     }
-//     if (grades < 60) {
-//         document.getElementById("head2").innerHTML = "F"
-//     }
-
-//     document.getElementById("title").innerHTML = grades
-//     if (grades > 100) {
-//         document.getElementById("title").innerHTML = "error"
-//         document.getElementById("head2").innerHTML = "error"
-//     }
-
-
-
-
 // }
+
+// big();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function grade() {
+    let quizes = document.getElementById("quiz").value;
+    let mid = document.getElementById("mid").value;
+    let final = document.getElementById("final").value;
+    let oral = document.getElementById("oral").value;
+
+    let hun = quizes * 1
+    let hun1 = mid * 1
+    let hun3 = final * 1
+    let hun4 = oral * 1
+
+
+    let grades = hun + hun1 + hun3 + hun4
+
+
+
+    if (grades > 89 && grades < 101) {
+        document.getElementById("head2").innerHTML = "A"
+    }
+    if (grades > 79 && grades < 90) {
+        document.getElementById("head2").innerHTML = "B"
+    }
+    if (grades > 69 && grades < 80) {
+        document.getElementById("head2").innerHTML = "C"
+    }
+    if (grades > 59 && grades < 70) {
+        document.getElementById("head2").innerHTML = "D"
+    }
+    if (grades < 60) {
+        document.getElementById("head2").innerHTML = "F"
+    }
+
+    document.getElementById("title").innerHTML = grades
+    if (grades > 100) {
+        document.getElementById("title").innerHTML = "error"
+        document.getElementById("head2").innerHTML = "error"
+    }
+
+
+
+
+}
 
